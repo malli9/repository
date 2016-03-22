@@ -1,0 +1,16 @@
+problem 1:
+
+employee yes	each employee having one emplyee code that is unique identifier and its not repeated
+plan	 yes	each plan having one plan_code that is unique identifier and its not repeated 
+job	 yes	each job having one job_code that is unique identifier and its not repeated 
+benefit	 no	to identify the rows uniquely there no unique value idetifier in this table
+
+problem 2:
+
+employee	yes             Job_code column in the employee table having relation ship with the JOb_code column in the job table
+plan		not applicable  Its Parent table or Master table
+job		not applicable  Its Parent table or Master table
+benefit	        yes            In this table emp_code column reference to the employee table emp_code column and Plan_code column references plan_code column in the plan table
+
+
+	
